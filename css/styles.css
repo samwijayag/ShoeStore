@@ -1,3 +1,131 @@
-h1{
-	background-color: blue;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Colors
+	red- #F23847
+	maroon- #BF3945
+	white- #F0F8F7
+	pink- #F28888
+	brown- #400711
+	orange- #ff7c2f
+*/
+
+/*========================================
+--------------HEADER--------------------
+========================================*/
+header{
+	padding: 25px 20px;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+header:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+header a{
+	color: #F23847;
+	text-decoration: none;
+}
+
+header .logo{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+
+header .logo img{
+	width: 70px;
+}
+
+header .menu{
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 24px;
+}
+
+header .menu a{
+	text-transform: uppercase;
+}
+
+header .head-buttons{
+	display: inline-block;
+	float: right;
+
+}
+
+header .head-buttons .cart-btn {
+	background: #ff7c2f;
+	padding: 10px 42px;
+	color: white;
+	border-radius: 25px;
+	text-transform: uppercase;
+	position: relative;
+	top: 20px;
+	-webkit-box-shadow: 10px 10px 123px -6px rgba(0,0,0,0.23);
+	-moz-box-shadow: 10px 10px 123px -6px rgba(0,0,0,0.23);
+	box-shadow: 10px 10px 123px -6px rgba(0,0,0,0.23);
+}
+header .head-buttons .fas {
+	margin-left: 10px;
+}
+
+header .head-buttons .signup-btn {
+	background:#F23847 ;
+	padding: 10px 42px;
+	color: white;
+	border-radius: 25px;
+	text-transform: uppercase;
+	position: relative;
+	top: 20px;
+	
 }
