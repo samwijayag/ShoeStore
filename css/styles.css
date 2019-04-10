@@ -63,6 +63,7 @@ header{
 	padding: 25px 20px;
 	font-size: 12px;
 	font-weight: 700;
+	margin-bottom: 50px;
 }
 
 header:after {
@@ -127,5 +128,46 @@ header .head-buttons .signup-btn {
 	text-transform: uppercase;
 	position: relative;
 	top: 20px;
-	
+}
+
+/*========================================
+--------------JUMBO-SECTION--------------------
+========================================*/
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/*-------------TOP-JUMBO-----------------*/
+
+#top-jumbo{
+	padding: 0 0 400px;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 43%, rgba(255,255,255,1) 43%, rgba(170,77,242,1) 70%, rgba(249,177,247,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 43%,rgba(255,255,255,1) 43%,rgba(170,77,242,1) 70%,rgba(249,177,247,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(255,255,255,1) 43%,rgba(255,255,255,1) 43%,rgba(170,77,242,1) 70%,rgba(249,177,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#top-jumbo:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+#top-jumbo .left-element{
+	width: 35%;
+	display: inline-block;
+	float: left;
+}
+
+#top-jumbo .right-element{
+	width: 65%;
+	display: inline-block;
+	float: left;
+}
+
+#top-jumbo .right-element img{
+	width: 100%;
 }
